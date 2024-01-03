@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uinversity Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Havard logo.png" alt=""></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu"></i>
+</nav>
+
+<div class="textbox">
+    <h1>Worlds Biggest University</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti a amet asperiores consectetur soluta ea. Inventore ut recusandae est ipsum doloremque placeat,<br> similique culpa obcaecati assumenda consequuntur doloribus vero quos.</p>
+    <a href="" class="hero-btn">Visit us to know more</a>
+
+</div>
+   
+</section>
+
+<!-- javascript for Toggle menu -->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
